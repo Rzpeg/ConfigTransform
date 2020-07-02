@@ -4,6 +4,7 @@ Configuration Transformation helpers for containerization of .NET Framework appl
 Based on:
 
 https://anthonychu.ca/post/overriding-web-config-settings-environment-variables-containerized-aspnet-apps/
+
 https://stackoverflow.com/questions/8989737/web-config-transforms-outside-of-microsoft-msbuild
 
 
