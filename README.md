@@ -7,6 +7,8 @@ https://anthonychu.ca/post/overriding-web-config-settings-environment-variables-
 
 https://stackoverflow.com/questions/8989737/web-config-transforms-outside-of-microsoft-msbuild
 
+https://gist.github.com/sayedihashimi/f1fdc4bfba74d398ec5b
+
 
 # Content
 This repository contains 2 scripts to apply transformations to .config files, both using XDT and Environment Variables.
