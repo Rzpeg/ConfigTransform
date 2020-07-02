@@ -1,2 +1,28 @@
-# ConfigTransform
-Configuration Transformation helpers for containerization of .NET Framework applications
+# Description
+Configuration Transformation helpers for containerization of .NET Framework applications.
+
+Based on:
+
+https://anthonychu.ca/post/overriding-web-config-settings-environment-variables-containerized-aspnet-apps/
+https://stackoverflow.com/questions/8989737/web-config-transforms-outside-of-microsoft-msbuild
+
+
+# Content
+This repository contains 2 scripts to apply transformations to .config files, both using XDT and Environment Variables.
+
+- transform-xml.ps1
+
+XDT-based transformation. 
+
+Usage: .\transform-xml.ps1 "Web.config" "Web.Release.config"
+
+
+- override-xml-from-env.ps1
+
+Environment Variables-based transformation. (Connection Strings and AppSettings only)
+
+Usage: 
+
+Create the needed environment variables with correct prefix (APPSETTING_ or CONNSTR_) then run
+
+.\override-xml-from-env.ps1 "Web.config"
