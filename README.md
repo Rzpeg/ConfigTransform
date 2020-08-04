@@ -15,14 +15,14 @@ This repository contains 2 scripts to apply transformations to .config files, bo
 
 - transform-xml.ps1
 
-XDT-based transformation. 
+## XDT-based transformation. 
 
 Usage: .\transform-xml.ps1 "Web.config" "Web.Release.config"
 
 
 - override-xml-from-env.ps1
 
-Environment Variables-based transformation. (Connection Strings and AppSettings only)
+## Environment Variables-based transformation. (Connection Strings and AppSettings only)
 
 Usage: 
 
@@ -31,11 +31,11 @@ Create the needed environment variables with correct prefix (APPSETTING_ or CONN
 .\override-xml-from-env.ps1 "Web.config"
 
 
-PowerShell Module.
+## PowerShell Module.
 
 Contains both functions from above, and a bootstrapper for web applications.
 
 
-Dockerfile
+## Dockerfile
 
 Example dockerfile
