@@ -11,7 +11,7 @@ https://gist.github.com/sayedihashimi/f1fdc4bfba74d398ec5b
 
 
 # Content
-This repository contains 2 scripts to apply transformations to .config files, both using XDT and Environment Variables.
+This repository contains 2 scripts to apply transformations to .config files, both using XDT and Environment Variables, a PowerShell module and an example Dockerfile.
 
 - transform-xml.ps1
 
@@ -29,3 +29,13 @@ Usage:
 Create the needed environment variables with correct prefix (APPSETTING_ or CONNSTR_) then run
 
 .\override-xml-from-env.ps1 "Web.config"
+
+
+PowerShell Module.
+
+Contains both functions from above, and a bootstrapper for web applications.
+
+
+Dockerfile
+
+Example dockerfile
