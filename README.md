@@ -13,16 +13,15 @@ https://gist.github.com/sayedihashimi/f1fdc4bfba74d398ec5b
 # Content
 This repository contains 2 scripts to apply transformations to .config files, both using XDT and Environment Variables, a PowerShell module and an example Dockerfile.
 
-- transform-xml.ps1
-
 ## XDT-based transformation. 
+
+transform-xml.ps1
 
 Usage: .\transform-xml.ps1 "Web.config" "Web.Release.config"
 
-
-- override-xml-from-env.ps1
-
 ## Environment Variables-based transformation. (Connection Strings and AppSettings only)
+
+override-xml-from-env.ps1
 
 Usage: 
 
