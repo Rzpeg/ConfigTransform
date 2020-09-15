@@ -75,7 +75,7 @@ function Invoke-ConfigTranformation-Environment($sourceFile)
     
     if ($modified) {
         Write-Host "Document modified, overwriting the file.";
-        $doc.Save($webConfig);
+        $doc.Save($sourceFile);
     } else {
         Write-Host "No changes to the document.";
     }
